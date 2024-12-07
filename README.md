@@ -11,6 +11,6 @@
 ## 🛠️ Tech Stack
 - **Framework:** SwiftUI
 - **Minimum iOS Version:** iOS 16
-- **Cloud Services:** CloudKit
+- **Data Persistence:** CloudKit
 - **Testing:** Swift Testing
 - **Concurrency:** Swift Concurrency (Async/Await)
