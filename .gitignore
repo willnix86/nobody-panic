@@ -1,0 +1,94 @@
+# User-specific files
+*.xcuserdata
+*.xcuserstate
+
+# Workspace settings
+*.xcworkspace/
+!default.xcworkspace/contents.xcworkspacedata
+
+# Derived data
+DerivedData/
+build/
+Build/
+
+# Log files
+*.log
+
+# Dependency management
+Pods/
+Carthage/Build/
+Carthage/Checkouts/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# Xcode-specific files
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# Simulator and device data
+*.simstate
+*.device
+
+# Breakpoints and schemes
+xcshareddata/xcschemes/*
+xcuserdata/*/xcdebugger/Breakpoints_v2.xcbkptlist
+xcuserdata/*/xcschemes/
+xcuserdata/*/xcschemes/xcschememanagement.plist
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+fastlane/readme.md
+
+# CocoaPods keys
+Pods/Manifest.lock
+*.lock
+
+# Archives
+*.xcarchive
+
+# Temporary and other generated files
+*.DS_Store
+*.swp
+*.swm
+*.swo
+*~
+*.tmp
+*.bak
+*.orig
+
+# Files created by JetBrains IDEs like AppCode
+.idea/
+
+# SwiftLint
+.swiftlint.yml
+
+# Bundle artifact
+*.dSYM
+*.bcsymbolmap
+
+# Firebase
+GoogleService-Info.plist
+
+# Secrets (adjust depending on your usage)
+.env
+.secret
+
+# Documentation
+*.docset
+
+# Code coverage
+*.gcno
+*.gcda
+*.gcov
+*.profdata
