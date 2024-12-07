@@ -1,14 +1,7 @@
-//
-//  ContentView.swift
-//  Nobody Panic
-//
-//  Created by Will Nixon on 12/7/24.
-//
-
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+struct DashboardView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -84,5 +77,5 @@ private let itemFormatter: DateFormatter = {
 }()
 
 #Preview {
-    ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    DashboardView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
 }

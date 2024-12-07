@@ -14,48 +14,35 @@
 			remoteGlobalIDString = C68F33E72D04D24800C1011C;
 			remoteInfo = "Nobody Panic";
 		};
-		C68F340A2D04D24900C1011C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C68F33E02D04D24800C1011C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C68F33E72D04D24800C1011C;
-			remoteInfo = "Nobody Panic";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C68F33E82D04D24800C1011C /* Nobody Panic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nobody Panic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C68F33FF2D04D24900C1011C /* Nobody PanicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nobody PanicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C68F34092D04D24900C1011C /* Nobody PanicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nobody PanicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68F33E82D04D24800C1011C /* NobodyPanic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NobodyPanic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68F33FF2D04D24900C1011C /* NobodyPanicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NobodyPanicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C68F34112D04D24900C1011C /* Exceptions for "Nobody Panic" folder in "Nobody Panic" target */ = {
+		C68F34112D04D24900C1011C /* Exceptions for "NobodyPanic" folder in "NobodyPanic" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = C68F33E72D04D24800C1011C /* Nobody Panic */;
+			target = C68F33E72D04D24800C1011C /* NobodyPanic */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C68F33EA2D04D24800C1011C /* Nobody Panic */ = {
+		C68F33EA2D04D24800C1011C /* NobodyPanic */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C68F34112D04D24900C1011C /* Exceptions for "Nobody Panic" folder in "Nobody Panic" target */,
+				C68F34112D04D24900C1011C /* Exceptions for "NobodyPanic" folder in "NobodyPanic" target */,
 			);
-			path = "Nobody Panic";
+			path = NobodyPanic;
 			sourceTree = "<group>";
 		};
-		C68F34022D04D24900C1011C /* Nobody PanicTests */ = {
+		C68F34022D04D24900C1011C /* NobodyPanicTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Nobody PanicTests";
-			sourceTree = "<group>";
-		};
-		C68F340C2D04D24900C1011C /* Nobody PanicUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Nobody PanicUITests";
+			path = NobodyPanicTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,22 +62,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C68F34062D04D24900C1011C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C68F33DF2D04D24800C1011C = {
 			isa = PBXGroup;
 			children = (
-				C68F33EA2D04D24800C1011C /* Nobody Panic */,
-				C68F34022D04D24900C1011C /* Nobody PanicTests */,
-				C68F340C2D04D24900C1011C /* Nobody PanicUITests */,
+				C68F33EA2D04D24800C1011C /* NobodyPanic */,
+				C68F34022D04D24900C1011C /* NobodyPanicTests */,
 				C68F33E92D04D24800C1011C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,9 +77,8 @@
 		C68F33E92D04D24800C1011C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C68F33E82D04D24800C1011C /* Nobody Panic.app */,
-				C68F33FF2D04D24900C1011C /* Nobody PanicTests.xctest */,
-				C68F34092D04D24900C1011C /* Nobody PanicUITests.xctest */,
+				C68F33E82D04D24800C1011C /* NobodyPanic.app */,
+				C68F33FF2D04D24900C1011C /* NobodyPanicTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +86,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C68F33E72D04D24800C1011C /* Nobody Panic */ = {
+		C68F33E72D04D24800C1011C /* NobodyPanic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C68F34122D04D24900C1011C /* Build configuration list for PBXNativeTarget "Nobody Panic" */;
+			buildConfigurationList = C68F34122D04D24900C1011C /* Build configuration list for PBXNativeTarget "NobodyPanic" */;
 			buildPhases = (
 				C68F33E42D04D24800C1011C /* Sources */,
 				C68F33E52D04D24800C1011C /* Frameworks */,
@@ -121,18 +99,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C68F33EA2D04D24800C1011C /* Nobody Panic */,
+				C68F33EA2D04D24800C1011C /* NobodyPanic */,
 			);
-			name = "Nobody Panic";
+			name = NobodyPanic;
 			packageProductDependencies = (
 			);
 			productName = "Nobody Panic";
-			productReference = C68F33E82D04D24800C1011C /* Nobody Panic.app */;
+			productReference = C68F33E82D04D24800C1011C /* NobodyPanic.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C68F33FE2D04D24900C1011C /* Nobody PanicTests */ = {
+		C68F33FE2D04D24900C1011C /* NobodyPanicTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C68F34172D04D24900C1011C /* Build configuration list for PBXNativeTarget "Nobody PanicTests" */;
+			buildConfigurationList = C68F34172D04D24900C1011C /* Build configuration list for PBXNativeTarget "NobodyPanicTests" */;
 			buildPhases = (
 				C68F33FB2D04D24900C1011C /* Sources */,
 				C68F33FC2D04D24900C1011C /* Frameworks */,
@@ -144,37 +122,14 @@
 				C68F34012D04D24900C1011C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C68F34022D04D24900C1011C /* Nobody PanicTests */,
+				C68F34022D04D24900C1011C /* NobodyPanicTests */,
 			);
-			name = "Nobody PanicTests";
+			name = NobodyPanicTests;
 			packageProductDependencies = (
 			);
 			productName = "Nobody PanicTests";
-			productReference = C68F33FF2D04D24900C1011C /* Nobody PanicTests.xctest */;
+			productReference = C68F33FF2D04D24900C1011C /* NobodyPanicTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C68F34082D04D24900C1011C /* Nobody PanicUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C68F341A2D04D24900C1011C /* Build configuration list for PBXNativeTarget "Nobody PanicUITests" */;
-			buildPhases = (
-				C68F34052D04D24900C1011C /* Sources */,
-				C68F34062D04D24900C1011C /* Frameworks */,
-				C68F34072D04D24900C1011C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C68F340B2D04D24900C1011C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C68F340C2D04D24900C1011C /* Nobody PanicUITests */,
-			);
-			name = "Nobody PanicUITests";
-			packageProductDependencies = (
-			);
-			productName = "Nobody PanicUITests";
-			productReference = C68F34092D04D24900C1011C /* Nobody PanicUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,13 +148,9 @@
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = C68F33E72D04D24800C1011C;
 					};
-					C68F34082D04D24900C1011C = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = C68F33E72D04D24800C1011C;
-					};
 				};
 			};
-			buildConfigurationList = C68F33E32D04D24800C1011C /* Build configuration list for PBXProject "Nobody Panic" */;
+			buildConfigurationList = C68F33E32D04D24800C1011C /* Build configuration list for PBXProject "NobodyPanic" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +164,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C68F33E72D04D24800C1011C /* Nobody Panic */,
-				C68F33FE2D04D24900C1011C /* Nobody PanicTests */,
-				C68F34082D04D24900C1011C /* Nobody PanicUITests */,
+				C68F33E72D04D24800C1011C /* NobodyPanic */,
+				C68F33FE2D04D24900C1011C /* NobodyPanicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,13 +179,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C68F33FD2D04D24900C1011C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C68F34072D04D24900C1011C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,25 +202,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C68F34052D04D24900C1011C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		C68F34012D04D24900C1011C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C68F33E72D04D24800C1011C /* Nobody Panic */;
+			target = C68F33E72D04D24800C1011C /* NobodyPanic */;
 			targetProxy = C68F34002D04D24900C1011C /* PBXContainerItemProxy */;
-		};
-		C68F340B2D04D24900C1011C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C68F33E72D04D24800C1011C /* Nobody Panic */;
-			targetProxy = C68F340A2D04D24900C1011C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -287,15 +218,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Nobody Panic/Nobody_Panic.entitlements";
+				CODE_SIGN_ENTITLEMENTS = /Users/willnixon/Jenix/NobodyPanic/NobodyPanic/NobodyPanic.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Nobody Panic/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "NobodyPanic/Preview\\ Content";
 				DEVELOPMENT_TEAM = U25YC5NJV2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Nobody Panic/Info.plist";
+				INFOPLIST_FILE = NobodyPanic/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nobody Panic!";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -306,18 +239,19 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jenix.Nobody-Panic";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenix.nobodypanic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -327,15 +261,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Nobody Panic/Nobody_Panic.entitlements";
+				CODE_SIGN_ENTITLEMENTS = /Users/willnixon/Jenix/NobodyPanic/NobodyPanic/NobodyPanic.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Nobody Panic/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "NobodyPanic/Preview\\ Content";
 				DEVELOPMENT_TEAM = U25YC5NJV2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Nobody Panic/Info.plist";
+				INFOPLIST_FILE = NobodyPanic/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nobody Panic!";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -346,18 +282,19 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jenix.Nobody-Panic";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenix.nobodypanic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -395,6 +332,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = NobodyPanic/NobodyPanic.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -456,6 +394,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = NobodyPanic/NobodyPanic.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -494,7 +433,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nobody Panic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nobody Panic";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NobodyPanic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NobodyPanic";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -517,51 +456,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nobody Panic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nobody Panic";
-				XROS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		C68F341B2D04D24900C1011C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U25YC5NJV2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jenix.Nobody-PanicUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = "Nobody Panic";
-				XROS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		C68F341C2D04D24900C1011C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U25YC5NJV2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jenix.Nobody-PanicUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = "Nobody Panic";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NobodyPanic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NobodyPanic";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -569,7 +464,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C68F33E32D04D24800C1011C /* Build configuration list for PBXProject "Nobody Panic" */ = {
+		C68F33E32D04D24800C1011C /* Build configuration list for PBXProject "NobodyPanic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C68F34152D04D24900C1011C /* Debug */,
@@ -578,7 +473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C68F34122D04D24900C1011C /* Build configuration list for PBXNativeTarget "Nobody Panic" */ = {
+		C68F34122D04D24900C1011C /* Build configuration list for PBXNativeTarget "NobodyPanic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C68F34132D04D24900C1011C /* Debug */,
@@ -587,20 +482,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C68F34172D04D24900C1011C /* Build configuration list for PBXNativeTarget "Nobody PanicTests" */ = {
+		C68F34172D04D24900C1011C /* Build configuration list for PBXNativeTarget "NobodyPanicTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C68F34182D04D24900C1011C /* Debug */,
 				C68F34192D04D24900C1011C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C68F341A2D04D24900C1011C /* Build configuration list for PBXNativeTarget "Nobody PanicUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C68F341B2D04D24900C1011C /* Debug */,
-				C68F341C2D04D24900C1011C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
