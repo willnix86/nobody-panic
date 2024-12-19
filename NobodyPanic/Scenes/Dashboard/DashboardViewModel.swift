@@ -11,7 +11,7 @@ protocol DashboardViewModelType {
 
 protocol DashboardViewModelInputs {
     func tappedCallEmergenyServices()
-    func callEmergencyServices()
+    func confirmCallEmergencyServices()
     func resetEmergencyServices()
     func tappedGetLicencePlates()
 }
@@ -35,8 +35,7 @@ class DashboardViewModel: ObservableObject, DaboardVM {
         shouldCallEmergencyServices = true
     }
 
-    func callEmergencyServices() {
-        // TODO:
+    func confirmCallEmergencyServices() {
         isEmergencyServicesCalled = true
     }
 

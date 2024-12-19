@@ -9,5 +9,9 @@
 		<string>processing</string>
 		<string>location</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location to determine emergency numbers for your location, and to show you your location on the Map page of the app.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to determine emergency numbers for your location, and to show you your location on the Map page of the app.</string>
 </dict>
 </plist>

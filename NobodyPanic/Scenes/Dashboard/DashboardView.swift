@@ -50,7 +50,7 @@ struct DashboardView: View {
             isPresented: $viewModel.shouldCallEmergencyServices
         ) {
             Button("OK", role: .cancel) {
-                viewModel.inputs.callEmergencyServices()
+                viewModel.inputs.confirmCallEmergencyServices()
             }
         } message: {
             Text("")
