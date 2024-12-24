@@ -68,6 +68,7 @@ struct LicensePlatesView: View {
                     }
                 }
                 .padding()
+// TODO: .dismissKeyboard()
             }
             .alert(isPresented: $showAlert) {
                 Alert(
@@ -79,7 +80,7 @@ struct LicensePlatesView: View {
                     secondaryButton: .destructive(Text("Go Back"))
                 )
             }
-            .sheet(isPresented: $viewModel.isPresentingCamera) {
+            .fullScreenCover(isPresented: $viewModel.isPresentingCamera) {
                 ImageCaptureView(
                     capturedImage: $viewModel.licensePlatePhotos[viewModel.currentLicensePlateIndex]
                 )
