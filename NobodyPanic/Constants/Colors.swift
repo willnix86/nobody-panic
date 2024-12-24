@@ -5,6 +5,8 @@ enum Colors {
     enum Background {
         /// Soft Beige (#F5F5DC) - Used for app-wide backgrounds to create a calming, neutral tone.
         static let softBeige = Color(hex: "#F5F5DC")
+        /// Light Sand (#F0EAD6) - Slightly darker beige
+        static let lightSand = Color(hex: "#F0EAD6")
     }
 
     // Text Colors

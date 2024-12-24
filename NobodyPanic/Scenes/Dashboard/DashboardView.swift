@@ -4,6 +4,8 @@ import CoreData
 struct DashboardView: View {
     @StateObject private var viewModel = DashboardViewModel()
 
+    var didRouteTo: (AppRoute) -> Void
+
     var body: some View {
         NavigationView {
             ZStack {
@@ -12,7 +14,7 @@ struct DashboardView: View {
                 VStack {
                     Text("Nobody Panic!")
                         .font(Font.App.largeTitle)
-                        .foregroundColor(Colors.Text.charcoalGray)
+                        .foregroundColor(Colors.Text.deepSlate)
                         .fontWeight(.bold)
                         .padding(.bottom, 30)
 
@@ -20,28 +22,24 @@ struct DashboardView: View {
                         LargeButton(
                             title: "Call Emergency Services",
                             backgroundColor: Colors.Alerts.warmRed,
-                            isDisabled: viewModel.outputs.isEmergencyServicesCalled
+                            isDisabled: viewModel.hasCalledEmergencyServices
                         ) {
                             viewModel.inputs.tappedCallEmergenyServices()
                         }
 
                         LargeButton(
                             title: "Get Licence Plate/s",
-                            backgroundColor: Colors.Buttons.sereneTeal
+                            backgroundColor: Colors.Buttons.sereneTeal,
+                            isDisabled: viewModel.hasCapturedLicensePlates
                         ) {
-                            viewModel.inputs.tappedGetLicencePlates()
+                            didRouteTo(
+                                .licensePlates(
+                                    hasCalledEmergencyServices: viewModel.hasCalledEmergencyServices
+                                )
+                            )
                         }
                     }
                     .padding(.bottom, 50)
-
-                    NavigationLink(
-                        destination: { EmptyView() },
-                        label: {
-                            Text("Previous accidents")
-                                .font(Font.App.body)
-                                .foregroundColor(Colors.Text.charcoalGray)
-                        }
-                    )
                 }
             }
         }
@@ -50,24 +48,14 @@ struct DashboardView: View {
             isPresented: $viewModel.shouldCallEmergencyServices
         ) {
             Button("OK", role: .cancel) {
-                viewModel.inputs.callEmergencyServices()
+                viewModel.inputs.confirmCallEmergencyServices()
             }
         } message: {
             Text("")
-        }
-        .alert(
-            "Action Completed",
-            isPresented: $viewModel.isGettingLicencePlates
-        ) {
-            Button("OK", role: .cancel) {
-                viewModel.isGettingLicencePlates = false
-            }
-        } message: {
-            Text("Getting licence plates.")
         }
     }
 }
 
 #Preview {
-    DashboardView()
+    DashboardView() { _ in }
 }
