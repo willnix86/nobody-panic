@@ -27,8 +27,11 @@ extension Font {
         /// Large title for main headings.
         static let largeTitle = Font.dynamicCustomFont(name: "SFPro-Bold", size: 34, textStyle: .largeTitle)
 
+        /// Headline for main headings.
+        static let headline = Font.dynamicCustomFont(name: "SFPro-Bold", size: 18, textStyle: .headline)
+
         /// Body text for general use.
-        static let body = Font.dynamicCustomFont(name: "SFPro-Regular", size: 17, textStyle: .body)
+        static let body = Font.dynamicCustomFont(name: "SFPro-Regular", size: 16, textStyle: .body)
 
         /// Subheadline for subtitles or labels.
         static let subheadline = Font.dynamicCustomFont(name: "Roboto-Medium", size: 15, textStyle: .subheadline)
